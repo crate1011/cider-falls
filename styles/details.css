@@ -1,0 +1,70 @@
+.guest_aside {
+    text-align: center;
+    font-size: x-large;
+    margin: 1%;
+    border-color: rgb(109, 163, 109);
+    border-width: 5px;
+    border-style: groove;
+    background-image: url('https://i.pinimg.com/originals/48/6a/ed/486aeda879f96262a1e5531098e8c366.jpg');
+    color: white;
+    width: 50%;
+}
+
+.guest_list {
+    border-color: burlywood;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('https://wallpapercave.com/wp/wp4491193.jpg');
+    color: white;
+    height: 190px;
+    align-items: flex-end;
+    font-size: 200%;
+    font: bolder;
+}
+
+.header {
+    border-color: burlywood;
+    border-width: 5px;
+    border-style: groove;
+}
+
+body {
+    background-color: rgb(57, 27, 27);
+}
+
+#container {
+display: flex;
+background-color: wheat;
+}
+
+.areaList {
+display: flex;
+flex-wrap: wrap;
+}
+
+.area__card {
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    width: 50em;
+    margin: .2em;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 2em;
+}
+
+header {
+    display: flex;
+    color: whitesmoke;
+    border-color: burlywood;
+    border-width: 5px;
+    border-style: groove;
+}

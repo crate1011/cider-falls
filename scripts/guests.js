@@ -6,12 +6,12 @@ const guests = getGuests()
 //returns interpolated string
 export const guestHTML = () => {
 
-    let guestList = `<div class="guest_aside"><hi class+"guest_list">Guest List<hi/>`
+    let guestList = `<div class="guest_aside"><h1 class="guest_list">Guest List</h1><ul>`
 
     for (const guest of guests) {
-        guestList += `<ul class="guest">${guest.name}</ul>`
+        guestList += `<li class="guest">${guest.name}</li>`
     }
-    guestList += `</div>`
+    guestList += `</ul></div>`
     
     return guestList
 }

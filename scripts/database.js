@@ -11,22 +11,22 @@ const database = {
     }, 
     {
         areaId: 3,
-        name: "lodge",
+        name: "Lodge",
         location: "northwest"
     },
     {
         areaId: 4,
-        name: "gander river",
+        name: "Gander River",
         location: "southwest"
     },
     {
         areaId: 5,
-        name: "campgrounds",
+        name: "Campgrounds",
         location: "southern"
     },
     {
         areaId: 6,
-        name: "pine bluffs trails",
+        name: "Pine Bluffs Trails",
         location: "southeast"
     }],
     guests: [{
@@ -112,7 +112,7 @@ const database = {
     areaServices: [{
         id: 1,
         areaId:1,
-        servicId:1
+        serviceId:1
     }, {
         id: 2,
         areaId:1,
