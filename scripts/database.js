@@ -1,5 +1,5 @@
 const database = {
-    parkAreas: [{
+    areas: [{
         areaId: 1,
         name: "Chamfort River",
         location: "northeast"
@@ -184,8 +184,8 @@ const database = {
     }]
 }
 
-export const getParkAreas = () => {
-    return database.parkAreas.map(parkArea => ({...parkArea}))
+export const getAreas = () => {
+    return database.areas.map(area => ({...area}))
 }
 
 export const getGuests = () => {

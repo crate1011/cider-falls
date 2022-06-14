@@ -1,4 +1,5 @@
-import { guestHTML } from "./guests";
+import { guestHTML } from "./guests.js";
+import { areasHTML } from "./areas.js";
 
 const mainContainer = document.querySelector("#container")
 
@@ -7,6 +8,9 @@ const applicationHTML = `
 <article class="details">
     <section class="detail--column list details__guests">
         ${guestHTML()} 
+</section>
+<section class="detail--column list details__guests">
+        ${areasHTML()} 
 </section>`
 
 mainContainer.innerHTML = applicationHTML
