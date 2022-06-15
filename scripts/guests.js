@@ -1,5 +1,7 @@
 import { getGuests } from "./database.js";
+import { getAreaService } from "./database.js";
 
+const areaService = getAreaService()
 const guests = getGuests()
 //create a function that stores a string var
 //itterates through guests and interpolates a string
@@ -14,4 +16,15 @@ export const guestHTML = () => {
     guestList += `</ul></div>`
     
     return guestList
+}
+
+export const filterGuests = (area) => {
+    let guestPaper = 0 
+
+    for (const guest of guests) {
+        if (guest.areaId === area.areaId) {
+            guestPaper++
+        }
+    }
+    return guestPaper
 }
