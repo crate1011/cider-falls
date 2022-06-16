@@ -3,6 +3,7 @@ import { getAreaService } from "./database.js";
 
 const areaService = getAreaService()
 const guests = getGuests()
+
 //create a function that stores a string var
 //itterates through guests and interpolates a string
 //returns interpolated string
@@ -18,6 +19,7 @@ export const guestHTML = () => {
     return guestList
 }
 
+//create a function that filters though guests and returns guests with matching area ids
 export const filterGuests = (area) => {
     let guestPaper = 0 
 

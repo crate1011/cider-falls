@@ -4,9 +4,8 @@ import { filteredAreas } from "./services.js";
 import { filterGuests } from "./guests.js";
 
 const areas = getAreas()
-//create a function that stores a string value of html
-//itterates through areas and returns interpolated string
 
+//create event listener that outputs the current number of guests in each park
 document.addEventListener(
     "click",
     (clickEvent) => {
@@ -24,10 +23,8 @@ document.addEventListener(
     }
 )
 
-
-
-
-
+//create a function that stores a string value of html
+//itterates through areas and returns interpolated string
 export const areasHTML = () => {
     let areaList = `<div class="areaList">`
     for (const area of areas) {

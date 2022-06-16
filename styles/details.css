@@ -39,21 +39,27 @@ body {
 }
 
 #container {
-display: flex;
-background-color: wheat;
+    display: flex;
+    background-color: wheat;
 }
 
 .areaList {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .area__card {
     border-color: black;
     border-width: 5px;
     border-style: groove;
-    width: 50em;
+    width: 25em;
     margin: .2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .logo {
@@ -65,6 +71,24 @@ header {
     display: flex;
     color: whitesmoke;
     border-color: burlywood;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.serviceList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-size: larger;
+    border-color: burlywood;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.service__card {
+    color: whitesmoke;
+    border-color: black;
     border-width: 5px;
     border-style: groove;
 }
